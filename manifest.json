@@ -1,0 +1,11 @@
+{
+  "id": "workout-logger",
+  "name": "Workout Logger",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Log workouts and track progressive overload in Obsidian: exercise library, session logs, personal records, and body metrics.",
+  "author": "wesswart77",
+  "authorUrl": "https://github.com/wesswart77",
+  "fundingUrl": "https://www.buymeacoffee.com/wesswart77",
+  "isDesktopOnly": false
+}

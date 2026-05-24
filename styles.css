@@ -1,0 +1,131 @@
+/* Workout Logger Plugin Styles */
+
+.wl-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 8px;
+  overflow-y: auto;
+}
+
+.wl-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.wl-header h4 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.wl-btn-row {
+  display: flex;
+  gap: 4px;
+}
+
+.wl-btn {
+  background: var(--interactive-accent);
+  color: var(--text-on-accent);
+  border: none;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.wl-btn:hover {
+  opacity: 0.85;
+}
+
+.wl-streak {
+  margin-bottom: 10px;
+  padding: 6px 10px;
+  background: var(--background-secondary);
+  border-radius: 6px;
+}
+
+.wl-streak-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-accent);
+}
+
+.wl-section-title {
+  margin: 10px 0 6px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+}
+
+.wl-workout-list,
+.wl-pr-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.wl-workout-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 8px;
+  background: var(--background-secondary);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.wl-workout-item:hover {
+  background: var(--background-modifier-hover);
+}
+
+.wl-workout-date {
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.wl-workout-name {
+  font-weight: 500;
+  text-align: right;
+}
+
+.wl-pr-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+  background: var(--background-secondary);
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.wl-pr-exercise {
+  font-weight: 500;
+}
+
+.wl-pr-weight {
+  color: var(--text-accent);
+  font-weight: 600;
+}
+
+.wl-empty {
+  color: var(--text-muted);
+  font-size: 12px;
+  font-style: italic;
+}
+
+.wl-rpe-display {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-accent);
+  margin-bottom: 4px;
+}
