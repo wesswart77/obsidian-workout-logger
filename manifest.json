@@ -1,7 +1,7 @@
 {
   "id": "workout-tracker-log",
-  "name": "Workout Logger",
-  "version": "1.0.2",
+  "name": "Gym & Workout Log",
+  "version": "1.0.3",
   "minAppVersion": "1.4.0",
   "description": "Log workouts and track progressive overload: exercise library, session logs, personal records, and body metrics.",
   "author": "wesswart77",
